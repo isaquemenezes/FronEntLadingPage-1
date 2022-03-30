@@ -82,10 +82,12 @@ nav:hover ul li a{
 .content p{
     max-width: 500px;
     line-height: 28px;
+    opacity: 0;
 }
 
 .links{
     margin-top: 30px;
+    opacity: 0;
 
 }
 
@@ -116,6 +118,15 @@ nav:hover ul li a{
         transform: translate(0);
         opacity: 1;
     }
+}
+
+p.slide-left{
+    animation-delay: 1s;
+}
+
+.links.slide-left{
+    animation-delay: 2s;
+
 }
 
 .more__info {
